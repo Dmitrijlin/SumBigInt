@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 require '../index.php';
 
-class TestSum extends TestCase {
+class SumTest extends TestCase {
 
 
 	public function testSumOnePlusOne() {

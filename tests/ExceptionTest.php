@@ -4,7 +4,7 @@
 use PHPUnit\Framework\TestCase;
 require '../index.php';
 
-class TestException extends TestCase {
+class ExceptionTest extends TestCase {
 
 	/**
 	 * @dataProvider additionProviderForSumNotString

@@ -2,11 +2,11 @@
 
 <phpunit colors="true">
     <testsuites>
-        <testsuite name="TestException">
-            <file>tests/TestException.php</file>
+        <testsuite name="ExceptionTest">
+            <file>tests/ExceptionTest.php</file>
         </testsuite>
-        <testsuite name="TestSum">
-            <file>tests/TestSum.php</file>
+        <testsuite name="SumTest">
+            <file>tests/SumTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
