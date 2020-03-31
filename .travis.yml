@@ -1,5 +1,7 @@
 language: php
+php:
+  - '7.2'
 
-script:
-  phpunit --verbose ExceptionTest .\tests\ExceptionTest.php --teamcity
-  phpunit --verbose SumTest .\tests\SumTest.php --teamcity
+install:
+  - composer require phpunit\phpunit ^8.5
+script: phpunit --configuration ./tests/phpunit.xml
